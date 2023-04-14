@@ -6,6 +6,12 @@ import (
 	"github.com/samcoded/go_crud_blog/models"
 )
 
+func Home(c *gin.Context) {
+	c.JSON(200, gin.H{
+		"message": "CRUD BLOG API",
+	})
+}
+
 func PostsCreate(c *gin.Context) {
 	// request
 	var body struct {
