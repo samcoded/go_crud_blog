@@ -10,7 +10,12 @@ Web Restful API for blog with create, read, update and delete functionality
 
 ## Dependencies
 
-`go install `
+```
+
+go mod tidy
+
+go run main.go
+```
 
 ## API Routes
 
@@ -26,3 +31,7 @@ Web Restful API for blog with create, read, update and delete functionality
 
     [DELETE] /posts/{id} - Delete post with ID
 ```
+
+## Live Demo
+
+https://go-crud-blog.herokuapp.com/
